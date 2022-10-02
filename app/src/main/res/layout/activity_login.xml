@@ -13,19 +13,27 @@
         android:text="@string/login" />
 
     <EditText
+        android:id="@+id/emailField"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/loginName"
-        android:inputType="textEmailAddress"/>
+        android:inputType="textEmailAddress"
+        android:text="@string/loginName" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/password" />
 
     <EditText
+        android:id="@+id/passwordField"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textPassword"/>
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login" />
 
 
 </LinearLayout>
