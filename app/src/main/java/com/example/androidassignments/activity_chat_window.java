@@ -73,7 +73,6 @@ public class activity_chat_window extends AppCompatActivity {
             else {
                 result = inflater.inflate(R.layout.chat_row_incoming, null);
             }
-
             TextView message = (TextView)result.findViewById(R.id.message_text);
             message.setText(getItem(position));
             return result;
