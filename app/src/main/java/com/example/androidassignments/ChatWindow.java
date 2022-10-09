@@ -3,8 +3,6 @@ package com.example.androidassignments;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
-import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -17,12 +15,12 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class activity_chat_window extends AppCompatActivity {
+public class ChatWindow extends AppCompatActivity {
 
     private ListView listView;
     private EditText editText;
     private Button sendButton;
-    private ArrayList<String> messages = new ArrayList<>();
+    private ArrayList<String> messages = new ArrayList<String>();
 
 
     @Override
@@ -65,7 +63,7 @@ public class activity_chat_window extends AppCompatActivity {
         }
 
         public View getView(int position, View convertView, ViewGroup parent){
-            LayoutInflater inflater = activity_chat_window.this.getLayoutInflater();
+            LayoutInflater inflater = ChatWindow.this.getLayoutInflater();
             View result = null ;
             if(position%2 == 0) {
                 result = inflater.inflate(R.layout.chat_row_outgoing, null);

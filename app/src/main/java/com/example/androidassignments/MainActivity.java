@@ -1,6 +1,5 @@
 package com.example.androidassignments;
 
-import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
@@ -35,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Log.i(ACTIVITY_NAME, "User clicked Start Chat");
-                Intent intent = new Intent(MainActivity.this, activity_chat_window.class);
+                Intent intent = new Intent(MainActivity.this, ChatWindow.class);
                 startActivity(intent);
             }
         });
