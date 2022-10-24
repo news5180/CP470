@@ -38,6 +38,16 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button toolbarButton = (Button)findViewById(R.id.toolbarButton);
+
+        toolbarButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this,TestToolbar.class);
+                startActivity(intent);
+            }
+        });
     }
 
     protected void onActivityResult(int requestCode, int responseCode, Intent data) {

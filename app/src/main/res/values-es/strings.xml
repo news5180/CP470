@@ -15,5 +15,20 @@
     <string name="cancel">cancel</string>
     <string name="startChat">Start Chat</string>
     <string name="send">Send</string>
+    <string name="toolbarButton">Toolbar</string>
+    <string name="about">About</string>
+    <string name="aboutText">Version 1.0, by Mitchell Newson</string>
+    <string name="toolbarSnack">Snack Message</string>
+    <string name="toolbar">Toolbar</string>
+    <string name="toolbar1">Toolbar option 1</string>
+    <string name="toolbar2">Do you want to go back?</string>
+    <string name="title_activity_test_toolbar">TestToolbar</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
 
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 </resources>
